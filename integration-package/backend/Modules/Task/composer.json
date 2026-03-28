@@ -1,0 +1,20 @@
+{
+    "name": "modules/task",
+    "description": "General Task Management module for Mrówki CRM",
+    "type": "laravel-module",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Modules\\Task\\": "app/",
+            "Modules\\Task\\Database\\Factories\\": "database/factories/",
+            "Modules\\Task\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Task\\Providers\\TaskServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Task",
+    "alias": "task",
+    "description": "General Task Management module — tasks, projects, subtasks, comments, time tracking, kanban",
+    "keywords": ["task", "project", "kanban"],
+    "priority": 0,
+    "providers": [
+        "Modules\\Task\\Providers\\TaskServiceProvider"
+    ],
+    "files": []
+}
